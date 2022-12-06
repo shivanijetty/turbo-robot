@@ -6,11 +6,12 @@ function Recipes({ recipeCards, showModal, setShowModal, addToFavs }) {
 
     const [selectedCard, setSelectedCard] = useState([])
 
-    const display = (clicked) => {
+     const display = (clicked) => {
         setSelectedCard(clicked)
         setShowModal(true)
     }
 
+  
     return (
         <div className="big big div">
             {
