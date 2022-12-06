@@ -30,14 +30,6 @@ function App() {
     setFavs([...favs,card])
   }
 
-<<<<<<< HEAD
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs}/>} />
-          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} />}/>
-=======
   const display = (clicked) => {
     setSelectedCard(clicked)
     setShowModal(true)
@@ -49,7 +41,6 @@ return(
         <Route path="/" element={<Layout />}>
           <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs} display={display} selectedCard={selectedCard}/>} />
           <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} display={display} recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} />}/>
->>>>>>> e0da64af1f9b584dc17da5a049e5d808daa0d6c2
           <Route path="submit" element={<Submit />}/>
         </Route>
       </Routes>
