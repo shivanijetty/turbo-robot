@@ -1,3 +1,4 @@
+
 const Favorites = ({favs}) => {
   return(
       <div className="favorites">

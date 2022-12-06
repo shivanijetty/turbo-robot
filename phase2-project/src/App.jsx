@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import React from "react"
+import Favorites from './Favorites'
 import Recipes from './Recipes'
+import Layout from './Layout'
+import Submit from './Submit'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 function App() {
@@ -26,14 +30,15 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h1 className='header'>Ye Olde Mom n' Pop Recipe Shoppe</h1>
-      <div>
-        <Recipes recipeCards={recipeCards} showModal={showModal} setShowModal={setShowModal} />
-        <Favorites favs={favs} />
-        <hr />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal}/>}/>
+          <Route path="favorites" element={<Favorites/>}/>
+          <Route path="submit" element={<Submit />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
