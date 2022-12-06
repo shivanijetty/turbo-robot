@@ -1,5 +1,5 @@
 
-const Favorites = ({favs, setFavs}) => {
+const Favorites = ({favs, setFavs, display, recipeCards, selectedCard, setShowModal, showModal, Modal}) => {
 
   const removeRecipes = (recipeCard) => {
     console.log('bye bye recipe')
@@ -11,22 +11,23 @@ const Favorites = ({favs, setFavs}) => {
   return(
       <div className="favorites">
         {
-          favs.map((recps) => {
+          favs.map((temporary) => {
            return(
               <div className="recipe card">
-                <img src={recps.image} className="card image" />
+                <img src={temporary.image} className="card image" />
                   <div className="small info">
-                     <h2>{recps.name}</h2>
-                     <p>{recps.description}</p>
-                     <button onClick={() => { removeRecipes(recps) }}>Remove</button>
+                     <h2>{temporary.name}</h2>
+                     <p>{temporary.description}</p>
+                     <button onClick={() => { removeRecipes(temporary) }}>Remove</button>
                   </div>
-                    {/* <div>
-                      <button onClick={() => display(recps)}>Modal Info!</button>
-                    </div> */}
+                    <div>
+                      <button onClick={() => display(temporary)}>Modal Info!</button>
+                    </div>
                   </div>        
             )
           })
         }
+        {showModal && <Modal setShowModal={setShowModal} favs={favs} selectedCard={selectedCard}/>}
       </div>
     )
 }

@@ -13,6 +13,8 @@ function App() {
   const [recipeCards, setRecipeCards] = useState([])
   const [showModal, setShowModal] = useState(false)
   const [favs, setFavs] = useState([])
+  
+  const [selectedCard, setSelectedCard] = useState([])
 
   useEffect(() => {
     const request = async () => {
@@ -29,12 +31,18 @@ function App() {
   }
 
 
+  const display = (clicked) => {
+    setSelectedCard(clicked)
+    setShowModal(true)
+    }
+
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs}/>} />
-          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} />}/>
+          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs} display={display} selectedCard={selectedCard}/>} />
+          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} display={display} recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} />}/>
           <Route path="submit" element={<Submit />}/>
         </Route>
       </Routes>
