@@ -12,6 +12,7 @@ function App() {
 
   const [recipeCards, setRecipeCards] = useState([])
   const [showModal, setShowModal] = useState(false)
+  const [favs, setFavs] = useState([])
 
   useEffect(() => {
     const request = async () => {
@@ -21,6 +22,12 @@ function App() {
     }
     request()
   }, [])
+
+  const addToFavs = (card) => {
+    if(favs.includes(card)) return;
+    setFavs([...favs,card])
+
+  }
 
   return (
     <BrowserRouter>

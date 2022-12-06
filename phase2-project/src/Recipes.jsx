@@ -2,7 +2,7 @@ import Modal from './Modal'
 import { useState } from 'react'
 
 
-function Recipes({ recipeCards, showModal, setShowModal }) {
+function Recipes({ recipeCards, showModal, setShowModal, addToFavs }) {
 
     const [selectedCard, setSelectedCard] = useState([])
 
@@ -21,6 +21,7 @@ function Recipes({ recipeCards, showModal, setShowModal }) {
                             <div className="small info">
                                 <h2>{recps.name}</h2>
                                 <p>{recps.description}</p>
+                                <button onClick={() => { addToFavs(recps) }}>Like</button>
                             </div>
                             <div>
                                 <button onClick={() => display(recps)}>Modal Info!</button>
