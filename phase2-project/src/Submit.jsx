@@ -8,7 +8,7 @@ function Submit () {
     const [instructions, setInstructions] = useState('')
     const [name, setName] = useState('')
     const [description, setDescription] = useState('')
-    const [era, setEra] = useState('')
+    const [century, setCentury] = useState('')
     const [image, setImage] = useState('')
 
     const handleSubmit = (e) => {
@@ -21,16 +21,17 @@ function Submit () {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
-                    ingredient: ingredients ,
-                    instructions: ,
-                    title: ,
+                    ingredient: ingredients,
+                    instructions: instructions,
+                    name: name,
+                    description: description,
+                    century: century,
+                    image: image,
                 })
             })
-
-
-        })
+        }
     }
-    }
+    
 
     const handleOpen = () => {
       setOpen(!open)
@@ -68,9 +69,7 @@ function Submit () {
                 }                
             </form>
         </div>
-
-    )
-
+    )           
 } 
 
 export default Submit
