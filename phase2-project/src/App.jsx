@@ -34,8 +34,8 @@ function App() {
     setSelectedCard(clicked)
     setShowModal(true)
     }
-
-  return (
+    
+return(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
