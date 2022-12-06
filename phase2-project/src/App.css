@@ -1,41 +1,86 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app {
+  background-color: #d4c383;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.big.big.div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.recipe.card {
+  font-family: 'Gill Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6b0;
+  margin: 10px;
+  width: fit-content;
+  height: auto;
+  border: 10px, solid, #333;
+  border-radius: 10px;
+  border: solid 3px black;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.card.image {
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 100px;
+  padding: 5px;
+  align-items: center;
 }
 
-.read-the-docs {
-  color: #888;
+.small.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* transition: all 1.2s ease-in-out; */
+}
+
+.modal-content {
+  width: 500px;
+  background-color: rgb(238, 29, 29);
+}
+
+.modal-header {
+  align-items: center;
+  padding: 10px
+}
+
+.modal-footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-title {
+  margin: 0
+}
+
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
