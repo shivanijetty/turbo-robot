@@ -26,17 +26,24 @@ function App() {
   const addToFavs = (card) => {
     if(favs.includes(card)) return;
     setFavs([...favs,card])
-
   }
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> b82493cb39e2659454feb243bd98add3e68d3f29
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+<<<<<<< HEAD
           <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs}/>}/>
           <Route path="favorites" element={<Favorites favs={favs}/>}/>
+=======
+          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs}/>} />
+          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} />}/>
+>>>>>>> b82493cb39e2659454feb243bd98add3e68d3f29
           <Route path="submit" element={<Submit />}/>
         </Route>
       </Routes>
