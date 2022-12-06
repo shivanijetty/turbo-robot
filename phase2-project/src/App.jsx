@@ -28,8 +28,7 @@ function App() {
     setFavs([...favs,card])
   }
 
-
-  return (
+ return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
