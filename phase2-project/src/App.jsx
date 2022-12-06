@@ -30,14 +30,12 @@ function App() {
     setFavs([...favs,card])
   }
 
-
   const display = (clicked) => {
     setSelectedCard(clicked)
     setShowModal(true)
     }
-
-
-  return (
+    
+return(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
