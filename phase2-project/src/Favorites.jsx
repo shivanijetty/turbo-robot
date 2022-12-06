@@ -27,7 +27,7 @@ const Favorites = ({favs, setFavs, display, recipeCards, selectedCard, setShowMo
             )
           })
         }
-        {showModal && <Modal setShowModal={setShowModal} favs={favs} selectedCard={selectedCard}/>}
+        {showModal && <Modal setShowModal={setShowModal} recipeCards={recipeCards} selectedCard={selectedCard}/>}
       </div>
     )
 }
