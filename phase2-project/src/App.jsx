@@ -29,12 +29,14 @@ function App() {
 
   }
 
+  
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal}/>}/>
-          <Route path="favorites" element={<Favorites/>}/>
+          <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs}/>}/>
+          <Route path="favorites" element={<Favorites favs={favs}/>}/>
           <Route path="submit" element={<Submit />}/>
         </Route>
       </Routes>
