@@ -2,16 +2,8 @@ import Modal from './Modal'
 import { useState } from 'react'
 
 
-function Recipes({ recipeCards, showModal, setShowModal, addToFavs }) {
+function Recipes({ recipeCards, showModal, setShowModal, addToFavs, display, selectedCard }) {
 
-    const [selectedCard, setSelectedCard] = useState([])
-
-     const display = (clicked) => {
-        setSelectedCard(clicked)
-        setShowModal(true)
-    }
-
-  
     return (
         <div className="big big div">
             {
