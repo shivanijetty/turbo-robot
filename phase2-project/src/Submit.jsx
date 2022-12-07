@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function Submit () {
+function Submit ({setRecipeCards}) {
     const [submit, setSubmit] = useState("ingredients")
     const [open, setOpen] = useState(false)
     const [ingredients, setIngredients] = useState('')
@@ -25,18 +25,22 @@ function Submit () {
                     instructions: instructions,
                     name: name,
                     description: description,
-                    // century: century,
+                    century: century,
                     // image: image,
-                })
+                }),
+            })                            
+            setRecipeCards((currentState) => {
+                console.log("added!")
+                return([...currentState, e]);
             })
         }
-        postRecipe()
+        postRecipe(setRecipeCards(e))
     }
     
 
-    // const handleOpen = () => {
-    //   setOpen(!open)
-    // }
+    const handleOpen = () => {
+      setOpen(!open)
+    }
         
     return(
         <div>
@@ -67,7 +71,17 @@ function Submit () {
                         <input onChange={(e) => {
                             setName(e.target.value)}} type="text" placeholder="thy title" /><br />
                         <input onChange={(e) => { setDescription(e.target.value) }} type="text" placeholder="thy caption" /><br />
-                        {/* <button onClick={handleOpen}>frometh which era?</button> */}
+                        {/* <button onClick={handleOpen}>frometh which century?</button>
+                         {open ? (
+                          <ul className="menu">
+                            <li className="menu-item">
+                              <button>17th</button>
+                            </li>
+                            <li className="menu-item">
+                              <button>18th</button>
+                            </li>
+                          </ul>
+                         ) : null} */}
                         <input type="submit" />
                     </div>
                 }                
