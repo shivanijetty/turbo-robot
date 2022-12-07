@@ -6,7 +6,6 @@
       "image": "https://recipes.hypotheses.org/files/2013/05/Rumpolt.TitlePage.16041.jpg",
       "century": "18th",
       "type": "food",
-      "subType": "supper",
       "origin": "USA",
       "ingredients": "Vipers, A gallon of water, Liqour, Pepper and Salt ,Quart of White Wine, Gallon of Liqour, some Spice, Chervil, White-Beet Cards, Hearts of Cabbage-Lettuce, Shallot, Spinach-leaves, Succory",
       "description": "tis a soup of venemous slitery lil snakes",
@@ -19,12 +18,11 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
       "century": "17th",
       "type": "drink",
-      "subType": "sips",
       "origin": "USA",
-      "ingredients": "cockerel",
-      "description": "an ale with cockerel in it",
-      "instructions": "pour ale in with cockerel",
-      "link": ""
+      "ingredients": "8 Gallons of Ale, One Cockerel, 4 Lbs of Raisins of the Sun well stoned, 2 or 3 Nutmegs, 3 or 4 flakes of Mace, 1/2 Lbs of Dates ",
+      "description": "A drink of ale, chicken broth, & sack",
+      "instructions": "Take eight gallons of Ale, take a Cock and boil him well; then take four pounds of Raisins of the Sun well stoned, two or three Nutmegs, three or four flakes of Mace, half a pound of Dates; beat these all in a Mortar, and put to them two quarts of the best Sack: and when the Ale hath done working, put these in, and stop it close six or seven days, and then bottle it, and a month after you may drink it.",
+      "link": "https://recipes.hypotheses.org/3018"
     },
     {
       "id": 3,

@@ -1,6 +1,4 @@
 import Modal from './Modal'
-import { useState } from 'react'
-
 
 function Recipes({ recipeCards, showModal, setShowModal, addToFavs, display, selectedCard }) {
 

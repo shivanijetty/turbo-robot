@@ -1,5 +1,6 @@
+import Modal from "./Modal"
 
-const Favorites = ({favs, setFavs, display, recipeCards, selectedCard, setShowModal, showModal, Modal}) => {
+const Favorites = ({favs, setFavs, display, selectedCard, setShowModal, showModal}) => {
 
   const removeRecipes = (recipeCard) => {
     console.log('bye bye recipe')
@@ -9,7 +10,7 @@ const Favorites = ({favs, setFavs, display, recipeCards, selectedCard, setShowMo
   }
 
   return(
-      <div className="favorites">
+      <div className="big big div">
         {
           favs.map((temporary) => {
            return(
