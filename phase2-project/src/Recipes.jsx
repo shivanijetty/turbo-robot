@@ -15,7 +15,7 @@ function Recipes({ recipeCards, showModal, setShowModal, addToFavs, display, sel
                                 <button onClick={() => { addToFavs(recps) }}>Like</button>
                             </div>
                             <div>
-                                <button onClick={() => display(recps)}>Modal Info!</button>
+                                <button className="modal-open-btn" onClick={() => display(recps)}>Modal Info!</button>
                             </div>
                         </div>
                     )

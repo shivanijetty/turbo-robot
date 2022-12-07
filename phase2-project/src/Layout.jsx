@@ -4,16 +4,17 @@ import {Outlet, Link} from "react-router-dom"
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Recipes</Link>
+    <h1 className="webpage-title">Ye Ole Mom n' Pop Recipe Shoppe</h1>
+      <nav className="nav">
+        <ul className="nav-ul">
+          <li className="nav-li">
+            <Link to="/" className="nav-a">Recipes</Link>
           </li>
-          <li>
-            <Link to="/favorites">Favorites</Link>
+          <li className="nav-li">
+            <Link to="/favorites" className="nav-a">Favorites</Link>
           </li>
-          <li>
-            <Link to="/submit">Submit</Link>
+          <li className="nav-li">
+            <Link to="/submit" className="nav-a">Submit</Link>
           </li>
         </ul>
       </nav>

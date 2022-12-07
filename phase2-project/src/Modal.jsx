@@ -12,8 +12,13 @@ const Modal = ({ setShowModal, selectedCard }) => {
                         <h1 className="modal-title"> Doth created in thee {selectedCard.century} Century</h1>
                     </div>
                     <div className="modal-body">
-                        <h2>{selectedCard.ingredients}</h2>
-                        <h2>{selectedCard.instructions}</h2>
+                        <h3> Ye Ole' Ingredients:
+                            <p>{selectedCard.ingredients}</p>
+                        </h3>
+                        <h3> Thee Corky Instructions: 
+                            <p>{selectedCard.instructions}</p>
+                        </h3>
+                        
                     </div>
                 </div>
                 <div className="modal-footer">

@@ -1,7 +1,43 @@
 .app {
   background-color: #d4c383;
 }
-
+.webpage-title{
+  font-family: cursive;
+  text-align: center
+  ;
+}
+.nav {
+  position: sticky;
+  top:0;
+  width: 100%;
+}
+.nav-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d4c383;
+}
+.nav-li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-li:hover:not(.active) {
+  background-color: teal ;
+}
+.active {
+  background-color: purple;
+}
+.nav-a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 .header {
   display: flex;
   justify-content: center;
