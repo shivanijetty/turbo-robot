@@ -14,15 +14,15 @@
 }
 
 .recipe.card {
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'URW Chancery L', cursive;
   display: flex;
   flex-direction: column;
   background-color: #f6f6b0;
   margin: 10px;
-  width: fit-content;
+  width: 260px;
   height: auto;
   border: 10px, solid, #333;
-  border-radius: 10px;
+  border-radius: 5px;
   border: solid 3px black;
   cursor: pointer;
 }
@@ -83,4 +83,6 @@
   padding: 10px;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  max-height: 200px;
+  overflow: auto;
 }

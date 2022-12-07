@@ -40,7 +40,7 @@ return(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs} display={display} selectedCard={selectedCard}/>} />
-          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} display={display} selectedCard={selectedCard} recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} />}/>
+          <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} display={display} setShowModal={setShowModal} showModal={showModal} selectedCard={selectedCard}/>}/>
           <Route path="submit" element={<Submit />}/>
         </Route>
       </Routes>
