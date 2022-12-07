@@ -23,7 +23,7 @@ function App() {
       setRecipeCards(res)
     }
     request()
-  }, [])
+  }, [recipeCards])
 
   const addToFavs = (card) => {
     if(favs.includes(card)) return;
@@ -41,7 +41,7 @@ return(
         <Route path="/" element={<Layout />}>
           <Route index element={<Recipes recipeCards={recipeCards} setShowModal={setShowModal} showModal={showModal} addToFavs={addToFavs} display={display} selectedCard={selectedCard}/>} />
           <Route path="favorites" element={<Favorites favs={favs} setFavs={setFavs} display={display} setShowModal={setShowModal} showModal={showModal} selectedCard={selectedCard}/>}/>
-          <Route path="submit" element={<Submit />}/>
+          <Route path="submit" element={<Submit setRecipeCards={setRecipeCards} />}/>
         </Route>
       </Routes>
     </BrowserRouter>
