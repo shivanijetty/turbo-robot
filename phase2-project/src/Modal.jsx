@@ -7,9 +7,10 @@ const Modal = ({ setShowModal, selectedCard }) => {
             <div className="modal" onClick={() => setShowModal(false)}>
                 <div className="modal-content">
                     <div className="modal-header">
-                        <img src={selectedCard.image} />
+                        <button className="exit-btn" onClick={() => setShowModal(false)}>x</button>
+                        <img className="card image" src={selectedCard.image} />
                         <h1 className="modal-title">{selectedCard.name}</h1>
-                        <h1 className="modal-title"> Doth created in thee {selectedCard.century} Century</h1>
+                        <h2 className="modal-title"> Doth created in thee {selectedCard.century} Century</h2>
                     </div>
                     <div className="modal-body">
                         <h3> Ye Ole' Ingredients:
@@ -18,11 +19,7 @@ const Modal = ({ setShowModal, selectedCard }) => {
                         <h3> Thee Corky Instructions: 
                             <p>{selectedCard.instructions}</p>
                         </h3>
-                        
                     </div>
-                </div>
-                <div className="modal-footer">
-                    <button onClick={() => setShowModal(false)}>Bring Meself Back</button>
                 </div>
             </div>
         </div>

@@ -4,15 +4,24 @@ import { useState } from "react";
 function Submit ({setRecipeCards}) {
     const [submit, setSubmit] = useState("ingredients")
     const [open, setOpen] = useState(false)
-    const [ingredients, setIngredients] = useState('')
-    const [instructions, setInstructions] = useState('')
-    const [name, setName] = useState('')
-    const [description, setDescription] = useState('')
-    const [century, setCentury] = useState('')
+    const [ingredients, setIngredients] = useState('Love and Spackle of Nutmeg')
+    const [instructions, setInstructions] = useState('Try thy best!')
+    const [name, setName] = useState('I Never Wot')
+    const [description, setDescription] = useState('Tis a mystery!')
+    const [century, setCentury] = useState('Before or during the 21st')
     const [image, setImage] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        const submittedCard = {
+                    ingredients: ingredients,
+                    instructions: instructions,
+                    name: name,
+                    description: description,
+                    century: century,
+                    image: image,
+                }
 
       const postRecipe = async () => {
           let req = await fetch('http://localhost:3000/recipes', {
@@ -20,21 +29,16 @@ function Submit ({setRecipeCards}) {
               headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({
-                    ingredients: ingredients,
-                    instructions: instructions,
-                    name: name,
-                    description: description,
-                    century: century,
-                    // image: image,
-                }),
+                body: JSON.stringify(
+                    submittedCard
+                ),
             })                            
             setRecipeCards((currentState) => {
                 console.log("added!")
-                return([...currentState, e]);
+                return([...currentState, submittedCard]);
             })
         }
-        postRecipe(setRecipeCards(e))
+        postRecipe()
     }
     
 
@@ -75,6 +79,7 @@ function Submit ({setRecipeCards}) {
                         <input className="input-field" onChange={(e) => {
                             setName(e.target.value)}} type="text" placeholder="thy title" /><br />
                         <input className="input-field" onChange={(e) => { setDescription(e.target.value) }} type="text" placeholder="thy caption" /><br />
+                        <input className="input-field" onChange={(e) => { setImage(e.target.value) }} type="text" placeholder="portrait please!" /><br />
                         {/* <button onClick={handleOpen}>frometh which century?</button>
                          {open ? (
                              <ul className="menu">
@@ -88,8 +93,8 @@ function Submit ({setRecipeCards}) {
                             ) : null} */}
                         <div className="two-btn-div">
                             <button className="submit-button" onClick={() => { setSubmit("instructions") }}>Back</button><br />
-                            <input className="submit-button" type="submit" />
                         </div>
+                            <input className="submit-button" type="submit" />
                     </div>
                 }                
             </form>
