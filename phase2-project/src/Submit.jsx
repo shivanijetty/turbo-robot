@@ -43,49 +43,57 @@ function Submit ({setRecipeCards}) {
     }
         
     return(
-        <div>
+        <div className="grandparent-submit-div">
+        <div className="parent-submit-div">
             <form onSubmit={(e)=>handleSubmit(e)}>
                 {
-                    submit === "ingredients" && <div>
-                        <h2>Yer Olde Fixings</h2>                        
-                        <input onChange={(e) => {
+                    submit === "ingredients" && <div className="children-submit-div">
+                        <h2 className="h2-fonts">What Be Thy Fixin's?</h2>                        
+                        <input className="input-field" onChange={(e) => {
                             setIngredients(e.target.value)
                         }} type="text" placeholder="thy fixings..." /><br />
-                        <button onClick={() => { setSubmit("instructions") }}>Next</button>
+                        <div className="two-btn-div">
+                        <button className="submit-button" onClick={() => { setSubmit("instructions") }}>Next</button>
+                        </div>
                     </div>
                 }
                 {
-                    submit === "instructions" && <div>
-                        <h2>Yer Olde Instructions</h2>
-                        <button onClick={() => { setSubmit("ingredients") }}>Back</button><br />
-                        <input onChange={(e) => {
+                    submit === "instructions" && <div className="children-submit-div">
+                        <h2 className="h2-fonts">Yer Olde Instructions</h2>
+                        <input className="input-field"  onChange={(e) => {
                             setInstructions(e.target.value)
                         }} type="text" placeholder="thy instructions" /><br />
-                        <button onClick={() => { setSubmit("title") }}>Next</button>
+                        <div className="two-btn-div">
+                        <button className="submit-button" onClick={() => { setSubmit("ingredients") }}>Back</button><br />
+                        <button className="submit-button" onClick={() => { setSubmit("title") }}>Next</button>
+                        </div>
                     </div>
                 }
                 {
-                    submit === "title" && <div>
-                        <h2>Yer Olde Recipe</h2>
-                        <button onClick={() => { setSubmit("instructions") }}>Back</button><br />
-                        <input onChange={(e) => {
+                    submit === "title" && <div className="children-submit-div">
+                        <h2 className="h2-fonts">What Should'st It Be Named?</h2>
+                        <input className="input-field" onChange={(e) => {
                             setName(e.target.value)}} type="text" placeholder="thy title" /><br />
-                        <input onChange={(e) => { setDescription(e.target.value) }} type="text" placeholder="thy caption" /><br />
+                        <input className="input-field" onChange={(e) => { setDescription(e.target.value) }} type="text" placeholder="thy caption" /><br />
                         {/* <button onClick={handleOpen}>frometh which century?</button>
                          {open ? (
-                          <ul className="menu">
-                            <li className="menu-item">
-                              <button>17th</button>
-                            </li>
-                            <li className="menu-item">
-                              <button>18th</button>
-                            </li>
-                          </ul>
-                         ) : null} */}
-                        <input type="submit" />
+                             <ul className="menu">
+                             <li className="menu-item">
+                             <button>17th</button>
+                             </li>
+                             <li className="menu-item">
+                             <button>18th</button>
+                             </li>
+                             </ul>
+                            ) : null} */}
+                        <div className="two-btn-div">
+                            <button className="submit-button" onClick={() => { setSubmit("instructions") }}>Back</button><br />
+                            <input className="submit-button" type="submit" />
+                        </div>
                     </div>
                 }                
             </form>
+        </div>
         </div>
     )           
 } 
