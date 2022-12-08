@@ -15,14 +15,14 @@ const Favorites = ({favs, setFavs, display, selectedCard, setShowModal, showModa
           favs.map((temporary) => {
            return(
               <div className="recipe card">
+                <button className="remove-btn" onClick={() => { removeRecipes(temporary) }}>X</button>
                 <img src={temporary.image} className="card image" />
                   <div className="small info">
                      <h2>{temporary.name}</h2>
                      <p>{temporary.description}</p>
-                     <button onClick={() => { removeRecipes(temporary) }}>Remove</button>
                   </div>
-                    <div>
-                      <button onClick={() => display(temporary)}>Modal Info!</button>
+                    <div className="one-btn-div">
+                      <button className="recipe-card-btn" onClick={() => display(temporary)}>Recipe!</button>
                     </div>
                   </div>        
             )

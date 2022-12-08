@@ -1,4 +1,4 @@
-.app {
+body {
   background-color: #d4c383;
 }
 .webpage-title{
@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d4c383;
+  background-color: #433d28;
 }
 .nav-li{
   cursor: pointer;
@@ -33,6 +33,7 @@
   background-color: purple;
 }
 .nav-a{
+  font-family: 'URW Chancery L', cursive;
   display: block;
   color: white;
   text-align: center;
@@ -98,8 +99,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   /* transition: all 1.2s ease-in-out; */
+}
+.remove-btn{
+  width: 25px;
+  height: 20px;
+  text-align: center;
 }
 
 .modal-content {
@@ -114,7 +119,8 @@
 }
 
 .modal-title {
-  margin: 0
+  margin: 0;
+  font-family: 'URW Chancery L', cursive;
 }
 
 .modal-body {
@@ -125,14 +131,23 @@
   max-height: 300px;
   overflow: auto;
 }
+.h3-modal{
+  font-size: 23px;
+}
+.p-modal{
+  font-size: 17px;
+  font-family: 'URW Chancery L', cursive ;
+}
 .grandparent-submit-div{
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 .parent-submit-div{
   display: flex;
   flex-direction: row;
-  border: solid black 2px;
+  border: solid goldenrod 8px;
+  border-radius: 36%;
   width: 50%;
   height: auto;
   justify-content: center;
@@ -148,6 +163,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.one-btn-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .submit-button{
   cursor: pointer;

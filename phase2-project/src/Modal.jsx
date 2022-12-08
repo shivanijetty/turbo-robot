@@ -13,11 +13,11 @@ const Modal = ({ setShowModal, selectedCard }) => {
                         <h2 className="modal-title"> Doth created in thee {selectedCard.century} Century</h2>
                     </div>
                     <div className="modal-body">
-                        <h3> Ye Ole' Ingredients:
-                            <p>{selectedCard.ingredients}</p>
+                        <h3 className="h3-modal"> Ye Ole Ingredients:
+                            <p className="p-modal">{selectedCard.ingredients}</p>
                         </h3>
-                        <h3> Thee Corky Instructions: 
-                            <p>{selectedCard.instructions}</p>
+                        <h3 className="h3-modal"> Thee Corky Instructions: 
+                            <p className="p-modal">{selectedCard.instructions}</p>
                         </h3>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ function Submit ({setRecipeCards}) {
     const [name, setName] = useState('I Never Wot')
     const [description, setDescription] = useState('Tis a mystery!')
     const [century, setCentury] = useState('Before or during the 21st')
-    const [image, setImage] = useState('')
+    const [image, setImage] = useState('https://cdn8.openculture.com/wp-content/uploads/2016/07/OC-bachelor-coobook-illustration.png')
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -91,10 +91,12 @@ function Submit ({setRecipeCards}) {
                              </li>
                              </ul>
                             ) : null} */}
-                        <div className="two-btn-div">
+                        <div className="one-btn-div">
                             <button className="submit-button" onClick={() => { setSubmit("instructions") }}>Back</button><br />
                         </div>
+                        <div className="one-btn-div">
                             <input className="submit-button" type="submit" />
+                        </div>
                     </div>
                 }                
             </form>
