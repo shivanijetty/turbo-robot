@@ -23,11 +23,12 @@ function App() {
       setRecipeCards(res)
     }
     request()
-  }, [recipeCards])
+  }, [])
 
   const addToFavs = (card) => {
-    if(favs.includes(card)) return;
-    setFavs([...favs,card])
+    if(!favs.includes(card)) {
+      setFavs(favs => [...favs,card])
+    }
   }
 
   const display = (clicked) => {

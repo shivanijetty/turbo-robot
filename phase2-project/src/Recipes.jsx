@@ -8,14 +8,20 @@ function Recipes({ recipeCards, showModal, setShowModal, addToFavs, display, sel
                 recipeCards.map((recps) => {
                     return (
                         <div className="recipe card">
+                          
                             <img src={recps.image} className="card image" />
+                            
                             <div className="small info">
-                                <h2>{recps.name}</h2>
-                                <p>{recps.description}</p>
-                                <button onClick={() => { addToFavs(recps) }}>Like</button>
-                            </div>
-                            <div>
-                                <button className="modal-open-btn" onClick={() => display(recps)}>Modal Info!</button>
+                                <div className= 'recipe-name-div'>
+                                    <h2>{recps.name}</h2>
+                                </div>
+                                <div className= 'recipe-name-div'>
+                                    <p>{recps.description}</p>
+                                </div>
+                                <div className="two-btn-div">
+                                <button className="recipe-card-btn" onClick={() => addToFavs(recps)}>Fancy</button>
+                                <button className="recipe-card-btn" onClick={() => display(recps)}>Recipe!</button>
+                                </div>
                             </div>
                         </div>
                     )
