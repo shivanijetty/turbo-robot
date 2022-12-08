@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Recipes from "./Recipes";
 
 function Submit ({setRecipeCards}) {
     const [submit, setSubmit] = useState("ingredients")
@@ -8,7 +9,7 @@ function Submit ({setRecipeCards}) {
     const [instructions, setInstructions] = useState('Try thy best!')
     const [name, setName] = useState('I Never Wot')
     const [description, setDescription] = useState('Tis a mystery!')
-    const [century, setCentury] = useState('Before or during the 21st')
+    const [century, setCentury] = useState('something')
     const [image, setImage] = useState('https://cdn8.openculture.com/wp-content/uploads/2016/07/OC-bachelor-coobook-illustration.png')
 
     const handleSubmit = (e) => {
@@ -80,17 +81,14 @@ function Submit ({setRecipeCards}) {
                             setName(e.target.value)}} type="text" placeholder="thy title" /><br />
                         <input className="input-field" onChange={(e) => { setDescription(e.target.value) }} type="text" placeholder="thy caption" /><br />
                         <input className="input-field" onChange={(e) => { setImage(e.target.value) }} type="text" placeholder="portrait please!" /><br />
-                        {/* <button onClick={handleOpen}>frometh which century?</button>
-                         {open ? (
-                             <ul className="menu">
-                             <li className="menu-item">
-                             <button>17th</button>
-                             </li>
-                             <li className="menu-item">
-                             <button>18th</button>
-                             </li>
-                             </ul>
-                            ) : null} */}
+                        <select className="input-field" onChange={(e) => { setCentury(e.target.value) }}>
+                            <option value="" disabled selected>choose thine century!</option>                            
+                            <option value="16th">16th</option>
+                            <option value="17th">17th</option>
+                            <option value="18th">18th</option>
+                            <option value="19th">19th</option>
+                            <option value="20th">20th</option>
+                        </select>
                         <div className="one-btn-div">
                             <button className="submit-button" onClick={() => { setSubmit("instructions") }}>Back</button><br />
                         </div>
