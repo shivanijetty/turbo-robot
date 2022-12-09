@@ -3,74 +3,65 @@
     {
       "id": 1,
       "name": "Viper Soup",
-      "image": "https://recipes.hypotheses.org/files/2013/05/Rumpolt.TitlePage.16041.jpg",
+      "image": "https://www.chinadaily.com.cn/kindle/attachement/jpg/site241/20171027/f04da2db11221b5cc4f14e.jpg",
       "century": "18th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "Vipers, A gallon of water, Liqour, Pepper and Salt ,Quart of White Wine, Gallon of Liqour, some Spice, Chervil, White-Beet Cards, Hearts of Cabbage-Lettuce, Shallot, Spinach-leaves, Succory",
       "description": "tis a soup of venemous slitery lil snakes",
-      "instructions": "Take Vipers, alive, and skin them, and cut off their Heads; then cut them in pieces, about two Inches in length, and boil them, with their Hearts, in about a Gallon of Water to eight Vipers, if they are pretty large. Put into the Liquor a little Pepper and Salt, and a Quart of White Wine to a Gallon of Liquor; then put in some Spice, to your mind, and chop the following Herbs, and put into it: Take some Chervill, some white Beet-Cards or Leaves, some Hearts of Cabbage-Lettuce, a Shallot, some Spinach-Leaves, and some Succory. Boil these, and let them be tender; then serve it up hot, with a French Roll in the middle, and garnish with the raspings of Bread sifted, and slices of Lemon.",
-      "link": ""
+      "instructions": "Take Vipers, alive, and skin them, and cut off their Heads; then cut them in pieces, about two Inches in length, and boil them, with their Hearts, in about a Gallon of Water to eight Vipers, if they are pretty large. Put into the Liquor a little Pepper and Salt, and a Quart of White Wine to a Gallon of Liquor; then put in some Spice, to your mind, and chop the following Herbs, and put into it: Take some Chervill, some white Beet-Cards or Leaves, some Hearts of Cabbage-Lettuce, a Shallot, some Spinach-Leaves, and some Succory. Boil these, and let them be tender; then serve it up hot, with a French Roll in the middle, and garnish with the raspings of Bread sifted, and slices of Lemon."
     },
     {
       "id": 2,
       "name": "Cock Ale",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
       "century": "17th",
-      "type": "drink",
-      "origin": "USA",
       "ingredients": "8 Gallons of Ale, One Cockerel, 4 Lbs of Raisins of the Sun well stoned, 2 or 3 Nutmegs, 3 or 4 flakes of Mace, 1/2 Lbs of Dates ",
       "description": "A drink of ale, chicken broth, & sack",
-      "instructions": "Take eight gallons of Ale, take a Cock and boil him well; then take four pounds of Raisins of the Sun well stoned, two or three Nutmegs, three or four flakes of Mace, half a pound of Dates; beat these all in a Mortar, and put to them two quarts of the best Sack: and when the Ale hath done working, put these in, and stop it close six or seven days, and then bottle it, and a month after you may drink it.",
-      "link": "https://recipes.hypotheses.org/3018"
+      "instructions": "Take eight gallons of Ale, take a Cock and boil him well; then take four pounds of Raisins of the Sun well stoned, two or three Nutmegs, three or four flakes of Mace, half a pound of Dates; beat these all in a Mortar, and put to them two quarts of the best Sack: and when the Ale hath done working, put these in, and stop it close six or seven days, and then bottle it, and a month after you may drink it."
+    },
+    { 
+      "id": 3,
+      "name": "Weak Honey Drink",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
+      "century": "17th",
+      "ingredients": "9 Parts Warm Fountain Water, 1 Pint of Pure White Honey, Sliced Ginger, Thin yellow rhind of Orange, Spoonful of pure Ale-yeast",
+      "description": "A drink of honey that is weak",
+      "instructions": "Take nine parts of warm fountain-water, and dissolve in it one pint of pure white Honey, by laving it therein, till it be dissolved. Then boil it gently, skimming it all the while, till all the scum be perfectly scummed off; and after that boil it a little longer, peradventure a quarter of an hour. In all it will require two or three hours of boiling, so that at last one third part may be consumed. About a quarter of an hour before you cease boiling, and take it from the fire, put to it a little spoonful of cleansed and sliced Ginger; and almost half as much of the thin yellow rhind of Orange, when you are even ready to take it from the fire, so as the Orange boil only one walm in it. Then pour it into a well-glased strong deep great gally-pot, and let it stand so, till it be almost cold, that it be scarce lukewarm. Then put to it a little spoonful of pure Ale-yeast, and work it together with a ladle to make it ferment: as soon as it beginneth to do so, cover it close with a fit cover, and put a thick doubled woolen cloth about it. Cast all things so that this may be done when you are going to bed. Next morning when you rise, you will find the barm gathered all together in the middle; scum it clean off with a silver spoon and a feather, and bottle up the liquor, stopping it very close. It will be ready to drink in two or three days; but it will keep well a month or two. It will be from the first very quick and pleasant."
     },
     {
       "id": 4,
       "name": "Neats Tongues to Hash",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEOLphUcWBXO45eXvfjwiNz6_NnaETxddHnQ&usqp=CAU",
       "century": "17th",
-      "type": "food",
-      "origin": "England",
       "ingredients": "Cow Tongues, Raises of the Sun,large Mace, 3 or 4 Blades, blanched Almonds, Claret, sweet Butter, Verjuce, a little Sugar, Yolk of 2 or 3 Eggs, carved Sippits, slices of Lemon, Parsley, picked Barberries",
       "description": "a dish of cows' tongues",
-      "instructions": "Boyl and blanch them, and slice them in slices, then put the pieces into a Pipkin, with Raisins of the Sun, large Mace, three or four Blades, blanched Almonds, Claret, boyl them altogether, and add a proportion of sweet Butter, some Verjuce and a little Sugar, strain a Ladle or two of the Liquor, and beat it up with the Yolk of two or three Eggs, place it on carved Sippits, and garnish with slices of Lemons, Parsley, and pickled Barberries",
-      "link": ""
+      "instructions": "Boyl and blanch them, and slice them in slices, then put the pieces into a Pipkin, with Raisins of the Sun, large Mace, three or four Blades, blanched Almonds, Claret, boyl them altogether, and add a proportion of sweet Butter, some Verjuce and a little Sugar, strain a Ladle or two of the Liquor, and beat it up with the Yolk of two or three Eggs, place it on carved Sippits, and garnish with slices of Lemons, Parsley, and pickled Barberries"
     },
     {
       "id": 5,
       "name": "Sack Posset",
       "image": "https://i.guim.co.uk/img/media/8ab2cf5c6fc1295621e23e5a9469a896d2156e78/0_2566_3295_1978/master/3295.jpg?width=620&quality=45&dpr=2&s=none",
       "century": "17th",
-      "type": "food",
-      "origin": "England",
       "ingredients": "A quart of Thick Cream, Whole Spice, 16 eggs, a pint of Sack, a seething ot of water",
       "description": "A custard of cream & wine",
-      "instructions": "Take a quart of thick cream, boyle it with whole spice, then take sixteen eggs, yolks and whites beaten very well, then heat about three quarters of a pint of sack, and mingle well with your eggs, then stir them into your cream, and sweeten it, then cover it up close for half an hour or more over a seething pot of water or over very slow embers, in a bason, and it will become like a cheese.",
-      "link": ""
+      "instructions": "Take a quart of thick cream, boyle it with whole spice, then take sixteen eggs, yolks and whites beaten very well, then heat about three quarters of a pint of sack, and mingle well with your eggs, then stir them into your cream, and sweeten it, then cover it up close for half an hour or more over a seething pot of water or over very slow embers, in a bason, and it will become like a cheese."
     },
     {
       "id": 6,
       "name": "Paw Paw Puddin'",
       "image": "https://savoringthepast.files.wordpress.com/2016/10/paw-paw-pudding-time-0_06_0301.jpg",
       "century": "18th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "Pie Crust, 1 cup Paw Paw Flesh, 1 cup Milk, 1 Egg, 2-3 tbsp. Molasses, 1 tsp. Allspice, 1 tsp. ground Ginger",
       "description": "A pie that'll make you wanna smack ya grand-maw-maw!",
-      "instructions": "Make sure to remove all seeds from the paw paw flesh and mash it up. Whisk in milk and egg getting the mixture as smooth as possible. Mix in your molasses and spices. This mixture will be a little thin but will thicken up as it cooks. Pour the mixture into your pie crust and bake at 350 degrees for 1 hour 20 minutes. Allow to cool completely, probably even overnight before slicing.",
-      "link": "https://savoringthepast.net/2016/10/27/paw-paw-pudding/"
+      "instructions": "Make sure to remove all seeds from the paw paw flesh and mash it up. Whisk in milk and egg getting the mixture as smooth as possible. Mix in your molasses and spices. This mixture will be a little thin but will thicken up as it cooks. Pour the mixture into your pie crust and bake at 350 degrees for 1 hour 20 minutes. Allow to cool completely, probably even overnight before slicing."
     },
     {
       "id": 7,
       "name": "Barley Gruel",
       "image": "https://savoringthepast.files.wordpress.com/2016/07/gruel-main-image.jpg?w=640&h=392",
       "century": "18th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "3 oz. Barley, 1 qt. Water, 4 oz. Currants or Raisins, 3 Egg Yolks, 10 oz. Cream, 1 cup White Wine or Sparkling Grape Juice, Lemon Zest (about half a lemon peel), Sugar ",
       "description": "Even Prison Mike liked this Gruel!",
-      "instructions": "Boil the barley in 1 quart of water changing the water out as needed until it comes out clean. Add in currants and allow to boil for about an hour then remove from heat and allow to cool. Mix together egg yolks, cream, white wine, and lemon zest. Make sure that your barley is cool enough that it will not cook your eggs, then add to your egg mixture. Place your gruel into a pot and heat on low stirring constantly until the mixture starts to thicken. Remove from heat, allow to cool and sweaten to your liking.",
-      "link": "https://savoringthepast.net/2016/08/01/barley-gruel/"
+      "instructions": "Boil the barley in 1 quart of water changing the water out as needed until it comes out clean. Add in currants and allow to boil for about an hour then remove from heat and allow to cool. Mix together egg yolks, cream, white wine, and lemon zest. Make sure that your barley is cool enough that it will not cook your eggs, then add to your egg mixture. Place your gruel into a pot and heat on low stirring constantly until the mixture starts to thicken. Remove from heat, allow to cool and sweaten to your liking."
     },
     {
       "id": 3,
@@ -89,93 +80,100 @@
       "name": "Stinging Nettle Soup",
       "image": "https://savoringthepast.files.wordpress.com/2016/04/stinging-nettle-soup-time-0_04_1316.jpg",
       "century": "18th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "Large amount of fresh Stinging Nettles, 1 ½ quarts Water, 4 oz Butter, 3 Medium Onions, ¼ cup Flour, Salt and Pepper to taste, Stale Bread Crust, Mushroom Ketchup (optional)",
       "description": "if thou cook it wrong, it shall sting thou",
-      "instructions": "Gather together a good bunch of early springtime nettles.  You might want to wear gloves when you pick these because they sting a little. Wash these off like you would lettuce for a salad and then chop them up finely. Start the water boiling in a kettle and heat the butter in a skillet. Add your chopped onions to your skillet when the butter has stopped making noise. Once the onions are nice and brown, put the nettles in the skillet and stir for about 5-10 minutes. Next, shake on the flour and add salt and pepper mixing well. Pour all of the contents of the pan into the boiling water. Add your chopped up stale bread to the soup and simmer for another 10 minutes. Add your mushroom ketchup just before serving as an optional finishing touch and enjoy.",
-      "link": "https://savoringthepast.net/2016/04/11/stinging-nettle-soup-2/"
+      "instructions": "Gather together a good bunch of early springtime nettles.  You might want to wear gloves when you pick these because they sting a little. Wash these off like you would lettuce for a salad and then chop them up finely. Start the water boiling in a kettle and heat the butter in a skillet. Add your chopped onions to your skillet when the butter has stopped making noise. Once the onions are nice and brown, put the nettles in the skillet and stir for about 5-10 minutes. Next, shake on the flour and add salt and pepper mixing well. Pour all of the contents of the pan into the boiling water. Add your chopped up stale bread to the soup and simmer for another 10 minutes. Add your mushroom ketchup just before serving as an optional finishing touch and enjoy."
     },
     {
       "id": 9,
       "name": "Switchel",
       "image": "https://savoringthepast.files.wordpress.com/2015/08/switchel5.jpg?w=640&h=432",
       "century": "18th",
-      "type": "drink",
-      "origin": "USA",
       "ingredients": "1/2 gallon of Drinking Water, 1/2 cup of Unsulfured Molasses (not blackstrap!). You may also substitute maple syrup or honey. 1/4 cup of Apple-Cider Vinegar. 1 tablespoon of Powdered Ginger",
       "description": "Boozy Gatorade that only the coolest lads chugged",
-      "instructions": "Mix all ingredients in a large vessel. Stir vigorously, especially making sure the ginger is well assimilated. Refresh yeeself accordingly!",
-      "link": "https://savoringthepast.net/2015/08/17/switchel-the-original-energy-ade/"
+      "instructions": "Mix all ingredients in a large vessel. Stir vigorously, especially making sure the ginger is well assimilated. Refresh yeeself accordingly!"
     },
     {
       "id": 10,
       "name": "Parmesean Ice Cream",
       "image": "https://savoringthepast.files.wordpress.com/2016/10/parmesan-ice-cream-time-0_00_4421.jpg",
       "century": "19th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "6 eggs beaten, 1 cup simple syrup, 2 cups light cream, 1/2 cup of freshly grated parmesan",
       "description": "Literally what it sounds like",
-      "instructions": "Take six eggs, half pint of syrup, and a pint of cream, put them into a stewpan, and boil them until they begin to thicken; then rasp three ounces of Parmesan cheese, mix the whole well together, and pass it through a sieve; then freeze it according to custom.",
-      "link": "https://www.osv.org/virtual-village/historical-recipes/"
+      "instructions": "Take six eggs, half pint of syrup, and a pint of cream, put them into a stewpan, and boil them until they begin to thicken; then rasp three ounces of Parmesan cheese, mix the whole well together, and pass it through a sieve; then freeze it according to custom."      
     },
     {
       "id": 11,
       "name": "Scots Collops",
       "image": "https://www.osv.org/content/uploads/2020/04/finished-dish-3-1920x1440.jpg",
       "century": "19th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "2-3 lbs beef, 2 large onions, 3 apples, salt and pepper, 2 tbsp butter, or more",
       "description": "Tis truly scrumtrulescent",
-      "instructions": "Cut some very thin slices of beef; rub with butter the bottom of an iron stew-pan that has a cover to fit quite closely; put in the meat, some pepper, and a little salt, a large onion and an appleminced very small. Cover the stewpan, and let it simmer till the meat is very tender. Serve it hot.",
-      "link": "https://www.osv.org/virtual-village/historical-recipes/"
+      "instructions": "Cut some very thin slices of beef; rub with butter the bottom of an iron stew-pan that has a cover to fit quite closely; put in the meat, some pepper, and a little salt, a large onion and an appleminced very small. Cover the stewpan, and let it simmer till the meat is very tender. Serve it hot."     
     },
     {
       "id": 12,
       "name": "Kedgeree",
       "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Keep-it-simple-kedgeree-a5f30c8.jpg?quality=90&webp=true&resize=600,545",
       "century": "19th",
-      "type": "food",
-      "origin": "India",
       "ingredients": "2 tbsp curry powder, 300g Basmati Rice, 600ml chicken stock, 400g skinless smoked Haddock, 100g peas",
       "description": "A pared-back take on kedgeree",
-      "instructions": "Heat the oven to 180C/160C fan/gas 4. Heat an ovenproof saucepan or flameproof casserole over a medium heat and toast the curry powder for 1 min. Stir in the rice to coat it in the curry powder, then pour over the stock. Bring to the boil, then lay the haddock on top. Cover. Cook in the oven for 30 mins. Carefully remove from the oven. Leave to rest for a minute, then stir through the peas while breaking up the haddock and fluffing the rice. Season to taste, then serve.",
-      "link": "https://www.bbcgoodfood.com/recipes/keep-it-simple-kedgeree"
+      "instructions": "Heat the oven to 180C/160C fan/gas 4. Heat an ovenproof saucepan or flameproof casserole over a medium heat and toast the curry powder for 1 min. Stir in the rice to coat it in the curry powder, then pour over the stock. Bring to the boil, then lay the haddock on top. Cover. Cook in the oven for 30 mins. Carefully remove from the oven. Leave to rest for a minute, then stir through the peas while breaking up the haddock and fluffing the rice. Season to taste, then serve."      
     },
     {
       "id": 13,
       "name": "Lemon Syllabub",
       "image": "https://www.allrecipes.com/thmb/q-KgdPA85jG0XcL3M7oiXcVoGYs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1410518-89c993a6c1124758a88894f74a63fe21.jpg",
       "century": "19th",
-      "type": "food",
-      "origin": "USA",
       "ingredients": "1 cup heavy whipping cream, chilled, ½ cup white sugar, ¼ cup white wine, ⅛ cup fresh lemon juice, 1 teaspoon grated lemon zest, ¼ teaspoon ground nutmeg (or to taste, 1 sprig fresh mint leaves for garnish, lemon slices for garnish",
       "description": "Fun dessert that can either be a boozy parfait or punch",
-      "instructions": "Whip the cream and sugar in a chilled bowl, until the cream begins to thicken. Gradually whip in the white wine, lemon juice, and lemon zest. Continue to whip until light and fluffy, but not grainy. Cover the mixture and chill until serving time. Serve in chilled parfait glasses, garnished with a dash of nutmeg, a sprig of mint, and a slice of lemon. Syllabub should be eaten with a small spoon, and savored.",
-      "link": "https://www.allrecipes.com/recipe/46525/lemon-syllabub/"
+      "instructions": "Whip the cream and sugar in a chilled bowl, until the cream begins to thicken. Gradually whip in the white wine, lemon juice, and lemon zest. Continue to whip until light and fluffy, but not grainy. Cover the mixture and chill until serving time. Serve in chilled parfait glasses, garnished with a dash of nutmeg, a sprig of mint, and a slice of lemon. Syllabub should be eaten with a small spoon, and savored."      
     },
     {
       "id": 14,
       "name": "White Tiger's Milk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
+      "image": "https://cocktailsandshots.com/wp-content/uploads/2018/06/tiger_s_milk_cocktail_recipe.jpg",
       "century": "19th",
-      "type": "drink",
-      "origin": "England",
       "ingredients": "½ gill apple-jack, ½ do. peach brandy, ½ teaspoon of aromatic tincture, Sweeten with white sugar to taste, The white of an egg beaten to a stiff foam, 1 quart pure milk",
       "description": "Will make yee want to dance",
-      "instructions": "Mix all ingredients and sprinkle with nutmeg",
-      "link": "https://recollections.biz/blog/victorian-cocktails-the-golden-age-of-mixology/"
+      "instructions": "Mix all ingredients and sprinkle with nutmeg"
     },
     {
-      "ingredients": "Love and Spackle of Nutmeg",
-      "instructions": "Try thy best!",
-      "name": "I Never Wot",
-      "description": "Tis a mystery!",
-      "century": "something",
-      "image": "https://cdn8.openculture.com/wp-content/uploads/2016/07/OC-bachelor-coobook-illustration.png",
-      "id": 15
+      "id": 15,
+      "name": "Roasted Cow's Udder",
+      "image": "https://thumbs.dreamstime.com/b/udder-cow-fried-breadcrumbs-potatoes-24120688.jpg",
+      "century": "17th",
+      "ingredients": "500 g cow udders (a generous lb), 1 beaten egg, plain breadcrumbs, 100 g butter (7 tbsp), salt (to taste), pepper (to taste)",
+      "description": "'Tis udderly scruptious",
+      "instructions": "To remove all traces of milk, let the udder soak in lukewarm water for 2 to 4 hours. Then cook the udder in a 2% to 3% salt water solution until tender. Remove from the cooking liquid and cut into 1/2-inch thick slices. Let the slices dry a bit. Season on both sides, dip into whisked egg, and then into breadcrumbs. Fry in butter (turning once) until golden brown on both sides."      
+    },
+    {
+      "id": 16,
+      "name": "Oyster Ice Cream",
+      "image": "https://www.pilotonline.com/resizer/0cz28sxHlJ3UKdFtXgLdAwupvF4=/800x0/filters:format(jpg):quality(70)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/T5V4Z7CQV5DEVLVN3DCFKSJAPU.jpg",
+      "century": "18th",
+      "ingredients": "2 quarts oysters, 3 quarts water, 3 onions, lean ham 2/3 slices, salt, pepper, flour 4 tbsp, cream 2cups, 6 egg yolks, thyme (optional).",
+      "description": "ring in the holidays with this classic treat!",
+      "instructions": "Wash and drain oysters; put half of them on with water, onions chopped up, the lean ham, pepper and salt. Boil it till reduced one-half, strain it through a sieve. Return the liquid into the pot, put the last half of fresh oysters, & boil it till they are sufficiently done. Thicken the soup with flour, rich cream and the yolks of new laid eggs beaten well; boil it a few minutes after the thickening is put in. Take care it does not curdle, and that the flour is not in lumps. If the flavour of thyme be agreeable, you may put in a little. lastly strain it from the oysters and freeze it."      
+    },
+    {
+      "id": 17,
+      "name": "Hot Chocolate With Ambergris",
+      "image": "https://research.colonialwilliamsburg.org/foundation/journal/winter12/images/chocolate1.jpg",
+      "century": "17th",
+      "ingredients": "1 pint liquid, 1 bar 100% chocolate, and 1½ - 2 ounces of sugar, 2 spoons ambergris, brandy, rum, canary wine. Add to taste: cinnamon, cloves, anise seed, nutmeg, vanilla, cardamum.",
+      "description": "Whale vomit: S'good for what ails ya!",
+      "instructions": "A bar of 100% chocolate is dissolved in hot liquid. Then add sugar, ambergris, spirits, & other things, and then whisked to a froth. Optional: add flour, ships' bisket crumbs or whole egg to thicken."
+    },
+    {
+      "id": 18,
+      "name": "Roasted Beaver Tail",
+      "image": "https://i.redd.it/rpc831nt69641.jpg",
+      "century": "18th",
+      "ingredients": "1 beaver tail, seasonings optional",
+      "description": "Before there was pork rinds, there was this",
+      "instructions": "Trap a beaver and remove the tail. Roast the tail for approximately 20 minutes, rotating it every couple of minutes to get an even roast. Some charring on the skin is okay.As the tail roasts, the skin will bubble and pull away from the tail.Remove the tail from the grill and cut the skin off. Run a knife down either side of the tailbone and remove chunks of fat. At this point, the fat can be consumed as is, or it can be seasoned and grilled to crisp the outside."
+
     }
   ]
 }
