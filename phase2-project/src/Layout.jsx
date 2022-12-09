@@ -4,7 +4,7 @@ import {Outlet, Link} from "react-router-dom"
 const Layout = () => {
   return (
     <>
-    <h1 className="webpage-title">Ye Ole Mom n' Pop Recipe Shoppe</h1>
+    <h1 className="webpage-title">Ye Olde Mom n' Pop Recipe Shoppe</h1>
       <nav className="nav">
         <ul className="nav-ul">
           <li className="nav-li">

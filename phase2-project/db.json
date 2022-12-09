@@ -18,7 +18,7 @@
       "description": "A drink of ale, chicken broth, & sack",
       "instructions": "Take eight gallons of Ale, take a Cock and boil him well; then take four pounds of Raisins of the Sun well stoned, two or three Nutmegs, three or four flakes of Mace, half a pound of Dates; beat these all in a Mortar, and put to them two quarts of the best Sack: and when the Ale hath done working, put these in, and stop it close six or seven days, and then bottle it, and a month after you may drink it."
     },
-    {
+    { 
       "id": 3,
       "name": "Weak Honey Drink",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Sack Posset",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
+      "image": "https://i.guim.co.uk/img/media/8ab2cf5c6fc1295621e23e5a9469a896d2156e78/0_2566_3295_1978/master/3295.jpg?width=620&quality=45&dpr=2&s=none",
       "century": "17th",
       "ingredients": "A quart of Thick Cream, Whole Spice, 16 eggs, a pint of Sack, a seething ot of water",
       "description": "A custard of cream & wine",
@@ -62,6 +62,18 @@
       "ingredients": "3 oz. Barley, 1 qt. Water, 4 oz. Currants or Raisins, 3 Egg Yolks, 10 oz. Cream, 1 cup White Wine or Sparkling Grape Juice, Lemon Zest (about half a lemon peel), Sugar ",
       "description": "Even Prison Mike liked this Gruel!",
       "instructions": "Boil the barley in 1 quart of water changing the water out as needed until it comes out clean. Add in currants and allow to boil for about an hour then remove from heat and allow to cool. Mix together egg yolks, cream, white wine, and lemon zest. Make sure that your barley is cool enough that it will not cook your eggs, then add to your egg mixture. Place your gruel into a pot and heat on low stirring constantly until the mixture starts to thicken. Remove from heat, allow to cool and sweaten to your liking."
+    },
+    {
+      "id": 3,
+      "name": "Weak Honey Drink",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3ZRBGz3Qv1KccyYNRfYnTg_njTR6CTSnOQ&usqp=CAU",
+      "century": "17th",
+      "type": "drink",
+      "origin": "USA",
+      "ingredients": "9 Parts Warm Fountain Water, 1 Pint of Pure White Honey, Sliced Ginger, Thin yellow rhind of Orange, Spoonful of pure Ale-yeast",
+      "description": "A drink of honey that is weak",
+      "instructions": "Take nine parts of warm fountain-water, and dissolve in it one pint of pure white Honey, by laving it therein, till it be dissolved. Then boil it gently, skimming it all the while, till all the scum be perfectly scummed off; and after that boil it a little longer, peradventure a quarter of an hour. In all it will require two or three hours of boiling, so that at last one third part may be consumed. About a quarter of an hour before you cease boiling, and take it from the fire, put to it a little spoonful of cleansed and sliced Ginger; and almost half as much of the thin yellow rhind of Orange, when you are even ready to take it from the fire, so as the Orange boil only one walm in it. Then pour it into a well-glased strong deep great gally-pot, and let it stand so, till it be almost cold, that it be scarce lukewarm. Then put to it a little spoonful of pure Ale-yeast, and work it together with a ladle to make it ferment: as soon as it beginneth to do so, cover it close with a fit cover, and put a thick doubled woolen cloth about it. Cast all things so that this may be done when you are going to bed. Next morning when you rise, you will find the barm gathered all together in the middle; scum it clean off with a silver spoon and a feather, and bottle up the liquor, stopping it very close. It will be ready to drink in two or three days; but it will keep well a month or two. It will be from the first very quick and pleasant.",
+      "link": ""
     },
     {
       "id": 8,
@@ -161,6 +173,7 @@
       "ingredients": "1 beaver tail, seasonings optional",
       "description": "Before there was pork rinds, there was this",
       "instructions": "Trap a beaver and remove the tail. Roast the tail for approximately 20 minutes, rotating it every couple of minutes to get an even roast. Some charring on the skin is okay.As the tail roasts, the skin will bubble and pull away from the tail.Remove the tail from the grill and cut the skin off. Run a knife down either side of the tailbone and remove chunks of fat. At this point, the fat can be consumed as is, or it can be seasoned and grilled to crisp the outside."
+
     }
   ]
 }
