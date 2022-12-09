@@ -12,8 +12,7 @@ function App() {
 
   const [recipeCards, setRecipeCards] = useState([])
   const [showModal, setShowModal] = useState(false)
-  const [favs, setFavs] = useState([])
-  
+  const [favs, setFavs] = useState([]) 
   const [selectedCard, setSelectedCard] = useState([])
 
   useEffect(() => {
