@@ -108,11 +108,12 @@ body {
   width: 25px;
   height: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .modal-content {
   width: 500px;
-  background-color: #dcccbb;
+  background-color: #9a7752;
   border: solid white 2px;
   border-radius: 2%;
 }
@@ -141,16 +142,19 @@ body {
   font-size: 17px;
   font-family: 'URW Chancery L', cursive ;
 }
+.exit-btn{
+  cursor: pointer;
+}
 .grandparent-submit-div{
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 60px;
 }
 .parent-submit-div{
   display: flex;
   flex-direction: row;
   background-color: #b3b385;
-  border: solid goldenrod 8px;
+  border: solid #433d28 8px;
   border-radius: 36%;
   width: 50%;
   height: auto;
